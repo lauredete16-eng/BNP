@@ -3,7 +3,7 @@
 
 const DEV_MODE = true;
 const STORAGE_KEY = 'bnp_users_data';
-const DATA_VERSION = 9
+const DATA_VERSION = 10
  ; // ⚡ INCRÉMENTER CE NUMÉRO À CHAQUE MODIFICATION
 
 class UserService {
@@ -145,8 +145,8 @@ class UserService {
         phone: '+33 07 74 52 52 87',
         accountNumber: '20250000002',
         country: 'France',
-        city: 'Brest',
-        location: 'Brest, France',
+        city: 'Marseille',
+        location: 'Marseille, France',
         manager: 'Lucien Vollet',
         balance: 284000.00,
         isBlocked: true,
