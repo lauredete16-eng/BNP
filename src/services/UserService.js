@@ -3,7 +3,7 @@
 
 const DEV_MODE = true;
 const STORAGE_KEY = 'bnp_users_data';
-const DATA_VERSION = 5
+const DATA_VERSION = 2
  ; // ⚡ INCRÉMENTER CE NUMÉRO À CHAQUE MODIFICATION
 
 class UserService {
@@ -151,7 +151,7 @@ class UserService {
         balance: 1115000.00,
         isBlocked: true,
         canTransferWhenBlocked: false,
-        unlockFee: null,
+        
         blockReason: 'Votre compte est bloqué pour des raisons de sécurité. Veuillez contacter votre conseiller pour effectuer le paiement des frais de déblocage et réactiver votre compte,merci.',
         rib: {
           iban: 'FR76 3000 5000 0102 0123 4567 880',
